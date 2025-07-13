@@ -1,6 +1,6 @@
 -- 1. Create the database if it doesn't exist
-CREATE DATABASE IF NOT EXISTS sample_app_db;
-USE sample_app_db;
+CREATE DATABASE IF NOT EXISTS import_from_github;
+USE import_from_github;
 
 -- 2. Create `users` table
 CREATE TABLE IF NOT EXISTS users (
