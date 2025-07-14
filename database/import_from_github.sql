@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS patients (
 -- 5. Insert seed data into `users`
 INSERT IGNORE INTO users (id, name, email, password, role, created_at) VALUES
 (1, 'Admin User', 'admin@example.com', '$2y$10$hashedpassword', 'admin', NOW()),
-(2, 'You should not see this.', 'admin@example.com', '$2y$10$hashedpassword', 'admin', NOW()),
+(2, 'You should not see this.', 'admin1@example.com', '$2y$10$hashedpassword', 'admin', NOW()),
 (3, 'John Doe', 'john@example.com', '$2y$10$hashedpassword', 'customer', NOW());
 
 -- 6. Insert seed data into `products`
