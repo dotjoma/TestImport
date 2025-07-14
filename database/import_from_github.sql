@@ -1,4 +1,5 @@
 -- 1. Create the database if it doesn't exist
+-- UPDATED!
 CREATE DATABASE IF NOT EXISTS import_from_github;
 USE import_from_github;
 
